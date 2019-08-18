@@ -35,6 +35,7 @@ body {
 .let-it-snow {
    width: 100%;
    height: 100%;
+   opacity: 0;
 }
 
 li {
@@ -74,12 +75,12 @@ li {
 }
 
 .minbox li:nth-child(1){
-	background: url(img/03_1_100x100.jpg) no-repeat 0 0;
+	background: url(img/03_3_100x100.jpg) no-repeat 0 0;
 	-webkit-transform: translateZ(50px);
 }
 
 .minbox li:nth-child(2){
-	background: url(img/04_1_100x100.jpg) no-repeat 0 0;
+	background: url(img/03_2_100x100.jpg) no-repeat 0 0;
 	-webkit-transform: rotateX(180deg) translateZ(50px);
 }
 
@@ -230,6 +231,19 @@ li {
 	opacity: 0.8;
 	left: -100px;
 	top: -100px;
+}
+
+.text .ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.0em;
+}
+.text .ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  opacity: 0; 
 }
 
 @keyframes move{
